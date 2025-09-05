@@ -1,0 +1,264 @@
+/* Importando Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Montserrat Alternates", sans-serif; */
+
+* {
+    border: 0;
+    box-shadow: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.titulos {
+    font-family: "Montserrat Alternates", sans-serif;
+    display: inline-block;
+    background-image: linear-gradient(
+        to right,
+        #f69b2f,
+        #e15300,
+        #a54c4e,
+        #0178ad,
+        #017eb5
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+}
+
+.titulosDireita {
+    font-family: "Montserrat Alternates", sans-serif;
+    display: block;
+    width: 100%;
+    text-align: right; /* ou center se preferir */
+
+    background-image: linear-gradient(
+        to right,
+        #f69b2f,
+        #e15300,
+        #a54c4e,
+        #0178ad,
+        #017eb5
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Imagens no Geral */
+
+.bordaSuperior {
+    background-image: linear-gradient(
+        to right,
+        #f69b2f,
+        #e15300,
+        #a54c4e,
+        #0178ad,
+        #017eb5
+    );
+    height: 0.5rem;
+    width: 100%;
+}
+
+.logo {
+    width: 23%;
+}
+
+
+/* Nav */
+
+.totalNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.divBotaoIdioma {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.bordaBotaoIdioma {
+    background-image: linear-gradient(
+        to right,
+        #f69b2f,
+        #e15300,
+        #a54c4e,
+        #0178ad,
+        #017eb5
+    );
+    padding: 0.20rem;
+    border-radius: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.180) 0px 3px 8px;
+}
+
+.botaoMudarIdioma {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+
+.logoNomeBreeze {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.subtituloNav {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+
+/* Descrição */
+
+.bordaDescricao {
+    background-image: linear-gradient(
+        to right,
+        #f69b2f,
+        #e15300,
+        #a54c4e,
+        #0178ad,
+        #017eb5
+    );
+    padding: 0.25rem;
+    border-radius: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.180) 0px 3px 8px;
+    margin-bottom: 3rem;
+}
+
+.conteudoDescricao {
+    padding: 0.5rem;
+    background-color: #ffffff;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.textoDescricao {
+    flex-wrap: wrap;
+    text-align: justify;
+    font-weight: 500;
+}
+
+
+/* Tecnologias */
+
+.divImagensTecnologias {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.imagensTecnologias {
+    min-width: 22%;
+    box-shadow: rgba(0, 0, 0, 0.180) 0px 3px 8px;
+    border-radius: 0.4rem;
+}
+
+
+/* Time */
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.divImgEquipe {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.imgEquipe {
+    min-width: 300px;
+}
+
+
+/* Time Indivíduos */
+
+.divEquipeIndividuos {
+    background-image: linear-gradient(
+        to right,
+        #f69b2f,
+        #e15300,
+        #a54c4e,
+        #0178ad,
+        #017eb5
+    );
+    width: 100%;
+    padding: 0.9rem 2rem;
+}
+
+.fotosEquipe {
+    min-width: 70px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.fotoThainara {
+    width: 70px;
+}
+
+.nomes {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.imagemNomeIndividuo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.23em;
+    align-items: center;
+}
+
+.iconeLinkedIn {
+    width: 10px;
+}
+
+.links {
+    gap: 0.3rem;
+    display: flex;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    width: 80%;
+    justify-content: space-between;
+}
