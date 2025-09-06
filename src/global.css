@@ -117,6 +117,7 @@ main {
     font-size: 0.8rem;
     font-weight: 600;
     border-radius: 0.5rem;
+    color: #000000;
 }
 
 .logoNomeBreeze {
@@ -230,8 +231,8 @@ main {
 }
 
 .fotosEquipe {
-    min-width: 100px;
-    max-width: 100px;
+
+    max-width: 110px;
     justify-content: center;
     gap: 0.4rem; 
     display: flex;
