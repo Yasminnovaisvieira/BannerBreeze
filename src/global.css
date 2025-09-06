@@ -12,6 +12,36 @@
     box-sizing: border-box;
 }
 
+.banner {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.banner::before,
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.banner::before {
+    background-image: url('./assets/fundoFrio.svg');
+    background-position: center left;
+    margin-top: 50%;
+}
+
+.banner::after {
+    background-image: url('./assets/fundoQuente.svg');
+    background-position: top right;
+    margin-top: 50%;
+}
+
 .conteudo {
     display: flex;
     justify-content: center;
