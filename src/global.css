@@ -262,7 +262,7 @@ main {
 
 .fotosEquipe {
 
-    max-width: 110px;
+    max-width: 95px;
     justify-content: center;
     gap: 0.4rem; 
     display: flex;
@@ -309,9 +309,11 @@ footer {
 }
 
 .ETS65anos {
-    max-width: 20px;
+    max-width: 40px;
+    height: auto;
 }
 
 .logoBosch {
-    max-width: 55px;
+    max-width: 85px;
+    height: auto;
 }
