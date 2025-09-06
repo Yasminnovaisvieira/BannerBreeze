@@ -5,7 +5,7 @@ function Descricao({ language }) {
     return (
         <div className="bordaDescricao">
             <div className="conteudoDescricao">
-                <p className="textoDescricao">{textos[language].descricao}</p>
+                <p className="textoDescricao"dangerouslySetInnerHTML={{ __html: textos[language].descricao }}/>
             </div>
         </div>
     )
