@@ -1,6 +1,6 @@
 /* Importando Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* font-family: "Montserrat", sans-serif; */
 /* font-family: "Montserrat Alternates", sans-serif; */
 
@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,7 +22,7 @@
 main {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
 }
 
 .titulos {
@@ -61,7 +61,6 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-
 /* Imagens no Geral */
 
 .bordaSuperior {
@@ -80,7 +79,6 @@ main {
 .logo {
     width: 23%;
 }
-
 
 /* Nav */
 
@@ -109,9 +107,9 @@ main {
         #0178ad,
         #017eb5
     );
-    padding: 0.20rem;
+    padding: 0.2rem;
     border-radius: 0.7rem;
-    box-shadow: rgba(0, 0, 0, 0.180) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 8px;
 }
 
 .botaoMudarIdioma {
@@ -135,7 +133,6 @@ main {
     width: 80%;
 }
 
-
 /* Descrição */
 
 .bordaDescricao {
@@ -149,7 +146,7 @@ main {
     );
     padding: 0.25rem;
     border-radius: 0.7rem;
-    box-shadow: rgba(0, 0, 0, 0.180) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 8px;
     margin-bottom: 3rem;
 }
 
@@ -166,7 +163,6 @@ main {
     font-weight: 500;
 }
 
-
 /* Tecnologias */
 
 .divImagensTecnologias {
@@ -180,18 +176,11 @@ main {
 
 .imagensTecnologias {
     min-width: 22%;
-    box-shadow: rgba(0, 0, 0, 0.180) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 8px;
     border-radius: 0.4rem;
 }
 
-
 /* Time */
-
-.time {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
 
 .divImgEquipe {
     display: flex;
@@ -200,10 +189,27 @@ main {
     margin-bottom: 2rem;
 }
 
-.imgEquipe {
-    min-width: 300px;
+.bordaColoridaFotoTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.7rem;
+    padding: 0.2rem;
+    background-image: linear-gradient(
+        to right,
+        #f69b2f,
+        #e15300,
+        #a54c4e,
+        #0178ad,
+        #017eb5
+    );
 }
 
+
+.imgEquipe {
+    max-width: 320px;
+    border-radius: 0.5rem;
+}
 
 /* Time Indivíduos */
 
@@ -218,40 +224,47 @@ main {
     );
     width: 100%;
     padding: 0.9rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 
 .fotosEquipe {
-    min-width: 70px;
-    justify-content: space-between;
+    min-width: 100px;
+    max-width: 100px;
+    justify-content: center;
+    gap: 0.4rem; 
     display: flex;
-}
-
-.fotoThainara {
-    width: 70px;
+    list-style: none;
+    padding: 0;
 }
 
 .nomes {
-    font-size: 0.6rem;
-    font-weight: 700;
+    font-size: 0.65rem;
+    margin-top: 0.3rem;
+    font-weight: 600;
     color: #ffffff;
+    text-align: center;
 }
 
 .imagemNomeIndividuo {
     display: flex;
     flex-direction: column;
-    gap: 0.23em;
+    gap: 0.3em;
     align-items: center;
 }
 
-.iconeLinkedIn {
-    width: 10px;
+.iconeLinkedIn, .iconeGitHub {
+    width: 15px;
 }
 
 .links {
     gap: 0.3rem;
     display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
 
 /* Footer */
 
@@ -261,4 +274,13 @@ footer {
     padding: 0.5rem 0;
     width: 80%;
     justify-content: space-between;
+    margin: 0 auto;
+}
+
+.ETS65anos {
+    max-width: 20px;
+}
+
+.logoBosch {
+    max-width: 55px;
 }

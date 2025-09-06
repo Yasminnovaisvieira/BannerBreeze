@@ -9,7 +9,9 @@ function Time ({ language }) {
             <h2 className="titulosDireita time">{textos[language].time}</h2>
 
             <div className="divImgEquipe">
-                <img src={FotoEquipe} alt="Foto da equipe do Breeze" className="imgEquipe"/>
+                <div className="bordaColoridaFotoTime">
+                    <img src={FotoEquipe} alt="Foto da equipe do Breeze" className="imgEquipe"/>
+                </div>
             </div>
         </div>
     )
