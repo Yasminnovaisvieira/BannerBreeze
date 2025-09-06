@@ -261,12 +261,17 @@ main {
 }
 
 .fotosEquipe {
-    max-width: 95px;
-    justify-content: center;
-    gap: 0.4rem; 
     display: flex;
+    justify-content: center;
+    gap: 1rem;         /* Espaço entre membros */
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;   /* Quebra de linha no mobile */
+}
+
+.fotoMembro {
+    max-width: 75px;
+    height: auto;
     border-radius: 50%;
 }
 

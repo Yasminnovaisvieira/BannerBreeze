@@ -44,7 +44,7 @@ function Individuos () {
                                     <img 
                                         src={membro.foto} 
                                         alt={`Foto de ${membro.nome}`} 
-                                        className="fotosEquipe" 
+                                        className="fotoMembro"
                                     />
                                     <figcaption className="nomes">{membro.nome}</figcaption>
 
